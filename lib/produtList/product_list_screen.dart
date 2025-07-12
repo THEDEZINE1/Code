@@ -3534,10 +3534,16 @@ class _VerticalMyListTileState extends State<VerticalMyListTile> {
                                   height: 150,
                                   width: double.infinity,
                                   fit: BoxFit.contain,
-                                  placeholder: (context, url) => const Center(
-                                    child: CircularProgressIndicator(
-                                      color: AppColors.colorPrimary,
-                                    ),
+                                  // placeholder: (context, url) => const Center(
+                                  //   child: CircularProgressIndicator(
+                                  //     color: AppColors.colorPrimary,
+                                  //   ),
+                                  // ),
+                                  placeholder: (contex,url) => Image.asset(
+                                    'assets/decont_splash_screen_images/decont_logo.png',
+                                    fit: BoxFit.contain,
+                                    height: 50,
+                                    width: double.infinity,
                                   ),
                                   errorWidget: (context, error, stackTrace) {
                                     return Image.asset(
