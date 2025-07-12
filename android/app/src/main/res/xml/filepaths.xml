@@ -1,0 +1,12 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Grant access to a specific directory -->
+    <external-path name="external_files" path="." />  <!-- Allows access to the entire external storage -->
+
+    <!-- Grant access to the Downloads directory -->
+    <external-files-path name="download_files" path="Download/" />
+    <cache-path
+        name="cache_files"
+        path="." />
+    <!-- For specific app directories -->
+    <files-path name="my_files" path="." /> <!-- Allows access to the app's internal storage directory -->
+</paths>

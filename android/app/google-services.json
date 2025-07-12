@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1020228850371",
+    "project_id": "decont-a44e8",
+    "storage_bucket": "decont-a44e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020228850371:android:8c3c28d8e0bb21886ac876",
+        "android_client_info": {
+          "package_name": "com.decont.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdSkvWZc9c7iIRb5k016KLpHBvh7yisgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
+
+
+
+
+
