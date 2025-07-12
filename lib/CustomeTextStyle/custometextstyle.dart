@@ -1,7 +1,7 @@
 import 'package:flutter/painting.dart';
 
 class CustomTextStyle {
-  // Font style for CustomFont1 Regular with font size and color
+
   static TextStyle? GraphikBold(double fontSize, Color color) {
     return TextStyle(
       fontFamily: 'GraphikBold',
@@ -11,6 +11,7 @@ class CustomTextStyle {
   }
 
   // Font style for CustomFont2 Regular with font size and color
+
   static TextStyle? GraphikMedium(double fontSize, Color color) {
     return TextStyle(
       decoration: TextDecoration.none,
